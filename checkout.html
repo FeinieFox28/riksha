@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="second.css">
+  <title>Riksha</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <img  src="img/logo.png" class="logo" alt="...">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="checkout.html">Оформление заказа</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<h1>Оформление заказа</h1>
+  <div class="order">
+
+  </div>
+
+  <div class="form">
+    <div class="section">
+      <img src="img/01.svg" alt="..." >
+      <h2>Контактные данные</h2>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Телефон">
+    </div>
+
+    <div class="section">
+      <img src="img/02.svg" alt="..." >
+      <h2>Параметры доставки</h2>
+      <div class="radio-group">
+        <label><input type="radio" name="time" checked> Ближайшее время</label>
+        <label><input type="radio" name="time"> Самовывоз</label>
+        <label><input type="radio" name="time"> На дату / время</label>
+      </div>
+      <input type="text" placeholder="Улица">
+      <input type="text" placeholder="Дом, квартира и пр.">
+      <div class="map">
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.kz/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.kz/maps/213/moscow/?from=mapframe&ll=37.646763%2C55.725146&utm_medium=mapframe&utm_source=maps&z=10" style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва — Яндекс Карты</a><iframe src="https://yandex.kz/map-widget/v1/?from=mapframe&ll=37.646763%2C55.725146&z=10" width="460" height="148" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+      </div>
+      <small>Доставим за 40 мин</small>
+    </div>
+
+    <div class="section">
+      <img src="img/03.svg" alt="..." >
+      <h2>Параметры оплаты</h2>
+      <div class="radio-group">
+        <label><input type="radio" name="pay" checked> Наличные</label>
+        <label><input type="radio" name="pay"> Онлайн оплата</label>
+      </div>
+      <input type="text" placeholder="Подготовить сдачу с...">
+      <label><input type="checkbox"> Без сдачи</label>
+    </div>
+
+    <div class="section">
+      <img src="img/04.svg" alt="..." >
+        <h2>Последний шаг</h2>
+      
+        <div class="cart-item">
+          <div>Количество персон</div>
+          <div class="counter">
+            <button class="minus">-</button>
+            <span class="qty">1</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+      
+        <div class="cart-item">
+          <div>Учебные палочки</div>
+          <div class="counter">
+            <button class="minus">-</button>
+            <span class="qty">1</span>
+            <button class="plus">+</button>
+          </div>
+          <div>Бесплатно</div>
+        </div>
+      
+        <div class="total">Сумма заказа: <span id="total">0 ₽</span></div>
+        <div>Стоимость доставки: <b id="delivery">0 ₽</b></div>
+      
+        <div>
+          <input type="text" placeholder="Промокод">
+          <button class="btn" >Применить</button>
+        </div>
+      
+        <div class="total">Итоговая сумма заказа: <span id="final">0 ₽</span></div>
+      
+        <textarea placeholder="Комментарий к заказу"></textarea>
+        <br><br>
+        <button class="btn2" type="button">Подтвердить заказ</button>
+    </div>
+  </div>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <footer>
+        <img class="logo-foot" src="img/logo.svg" alt="...">
+        <div class="foot">
+          <div class="menu">
+            <p class="about">О нас</p>
+            <p class="deliv">Доставка и оплата</p>
+            <p class="contact">Контакты</p>
+          </div>
+          <div class="social">
+            <img src="img/instagram-fill.svg" alt="...">
+            <img src="img/vk-social-logotype.svg" alt="...">
+            <img src="img/Vector.svg" alt="...">
+          </div>
+          <p class="phone">+7 (495) 617-14-24</p>
+          <p class="work">c 10:00 до 23:00</p>
+          <p class="def">© Рикша. Все права защищены.</p>
+        </div>
+      </footer>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Спасибо за заказ!</h2>
+          <p>Ваш заказ принят и скоро будет доставлен.</p>
+        </div>
+      </div>
+
+
+      <script src="js/main.js"></script>
+  </body>
+  </html>
+  

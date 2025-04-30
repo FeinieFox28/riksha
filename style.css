@@ -1,0 +1,2477 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafdfd;
+}
+
+.logo {
+    width: 100px;
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 150px;
+}
+
+nav ul li {
+    height: 50px;
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #211f1f;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #C95C3F
+}
+
+.banner {
+    position: absolute;
+    width: 1200px;
+    height: 424px;
+    left: 345px;
+    overflow: hidden;
+    background: #F5F9FA;
+    border-radius: 20px;
+}
+
+.banner img {
+    position: relative;
+    width: 448px;
+    height: 424px;
+    left: 599px;
+    top: -233px;
+}
+
+.banner h1 {
+    width: 470px;
+    height: 102px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #1B1B1B;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.banner p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 491px;
+    height: 135px;
+    left: 60px;
+    top: 217px;
+}
+
+.icons {
+    position: absolute;
+    width: 1224px;
+    height: 181px;
+    left: 345px;
+    top: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-img1,
+.icons-img2,
+.icons-img3,
+.icons-img4 {
+    width: 130px;
+    height: 130px;
+
+}
+
+.top {
+    position: absolute;
+    width: 1347px;
+    height: 616px;
+    left: 240px;
+    top: 780px;
+    background: #F5F9FA;
+
+}
+
+.top .new {
+    color: #B7B7B7;
+}
+
+.top p {
+    display: inline;
+    padding: 5px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1B1B1B;
+}
+
+.top .top1 {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    width: 392px;
+    height: 479px;
+    border-radius: 1%;
+    background: #fafdfd;
+}
+
+.top1 .hot {
+    position: absolute;
+    top: 20px;
+    width: 51px;
+    height: 49px;
+}
+
+.top1 .baked {
+    position: absolute;
+    top: 76px;
+    width: 51px;
+    height: 59px;
+}
+
+.top1 .sushi1 {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    top: 0px;
+}
+
+.top1 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 250px;
+    font-size: 24px;
+    color: #1B1B1B;
+}
+
+.top1 .info-sushi1 {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 295px;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #1B1B1B;
+}
+
+.top1 .val {
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.top1 .price {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #1B1B1B;
+}
+
+.top1 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.top .top2 {
+    width: 392px;
+    height: 479px;
+    position: absolute;
+    left: 430px;
+    bottom: 20px;
+    border-radius: 1%;
+    background: #fafdfd;
+}
+
+.top2 .baked2 {
+
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    position: absolute;
+    width: 51px;
+    height: 59px;
+    left: 8px;
+    top: 12px;
+}
+
+.top2 .sushi2 {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.top2 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 250px;
+    font-size: 24px;
+    color: #1B1B1B;
+}
+
+.top2 .info-sushi2 {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 295px;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #1B1B1B;
+}
+
+.top2 .val2 {
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.top2 .price2 {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #1B1B1B;
+}
+
+.top2 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.top .top3 {
+    position: absolute;
+    left: 860px;
+    bottom: 20px;
+    width: 392px;
+    height: 479px;
+    border-radius: 1%;
+    background: #fafdfd;
+}
+
+.top3 .hot3 {
+    position: absolute;
+    top: 20px;
+    width: 51px;
+    height: 49px;
+}
+
+.top3 .baked3 {
+    position: absolute;
+    top: 76px;
+    width: 51px;
+    height: 59px;
+}
+
+.top3 .sushi3 {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    top: 0px;
+}
+
+.top3 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 250px;
+    font-size: 24px;
+    color: #1B1B1B;
+}
+
+.top3 .info-sushi3 {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 295px;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #1B1B1B;
+}
+
+.top3 .val3 {
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.top3 .price3 {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #1B1B1B;
+}
+
+.top3 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+
+.combo {
+    position: absolute;
+    width: 1020px;
+    height: 680px;
+    left: 240px;
+    top: 1400px;
+    background: #f9feff;
+}
+
+.combo .txtcombo {
+    position: absolute;
+    width: 385px;
+    height: 60px;
+    top: -50px;
+    left: 60px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1B1B1B;
+}
+
+.combo .iil {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 355px;
+    top: 5px;
+}
+
+.combo .combo1 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    top: 100px;
+    background: #fafdfd;
+}
+
+.combo1 img {
+    position: absolute;
+    width: 340px;
+    height: 240px;
+    left: 28px;
+    top: -10px;
+}
+
+.combo1 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.combo1 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.combo1 .comval1 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.combo1 .comprice1 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.combo1 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.combo .combo2 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    left: 420px;
+    top: 100px;
+    background: #fafdfd;
+}
+
+.combo2 img {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.combo2 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.combo2 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.combo2 .comval2 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.combo2 .comprice2 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.combo2 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.combo .combo3 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    left: 840px;
+    top: 100px;
+    background: #fafdfd;
+}
+
+.combo3 img {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.combo3 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.combo3 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.combo3 .comval3 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.combo3 .comprice3 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.combo3 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.promo {
+    position: absolute;
+    width: 1225px;
+    height: 370px;
+    left: 240px;
+    top: 2000px;
+    background-color: #f9feff;
+}
+
+.promo p {
+    position: relative;
+    width: 144px;
+    height: 60px;
+    left: 6px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1B1B1B;
+}
+
+.promo img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 161px;
+    top: 40px;
+}
+
+.promo .promo2 {
+    position: absolute;
+    width: 392px;
+    height: 280px;
+    left: 10px;
+    top: 140px;
+    background: #D2F6FF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
+
+.promo2 .wave1 {
+    position: absolute;
+    width: 392px;
+    height: 115px;
+    left: 0px;
+    top: 166px;
+    border-radius: 8px;
+}
+
+.promo2 .sushi-img1 {
+    position: relative;
+    width: 191px;
+    height: 149px;
+    left: 201px;
+    top: 131px;
+}
+
+.promo2 .txt1 {
+    position: absolute;
+    width: 332px;
+    height: 60px;
+    left: 18px;
+    top: -7px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+.promo2 .txt2 {
+    position: absolute;
+    width: 286px;
+    height: 17px;
+    left: 18px;
+    top: 70px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.promo .promo3 {
+    position: absolute;
+    width: 392px;
+    height: 280px;
+    left: 415px;
+    top: 140px;
+    background: #F2B4B7;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
+
+.promo3 .wave2 {
+    position: absolute;
+    width: 392px;
+    height: 115px;
+    left: 0px;
+    top: 165px;
+    border-radius: 8px;
+}
+
+.promo3 .sushi-img2 {
+    position: absolute;
+    width: 349px;
+    height: 110px;
+    left: 24px;
+    top: 146px;
+}
+
+.promo3 .txt1_1 {
+    position: absolute;
+    width: 332px;
+    height: 60px;
+    left: 18px;
+    top: -7px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+.promo3 .txt2_2 {
+    position: absolute;
+    width: 286px;
+    height: 17px;
+    left: 18px;
+    top: 35px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.promo .promo4 {
+    position: absolute;
+    width: 392px;
+    height: 280px;
+    left: 820px;
+    top: 140px;
+    background: #DBFFCF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
+
+.promo4 .wave3 {
+    position: absolute;
+    width: 392px;
+    height: 115px;
+    left: 0px;
+    top: 165px;
+    border-radius: 8px;
+}
+
+.promo4 .sushi-img3 {
+    position: absolute;
+    width: 252px;
+    height: 170px;
+    left: 128px;
+    top: 110px;
+}
+
+.promo4 .txt1_3 {
+    position: absolute;
+    width: 332px;
+    height: 60px;
+    left: 18px;
+    top: -7px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+.promo4 .txt2_3 {
+    position: absolute;
+    width: 286px;
+    height: 17px;
+    left: 18px;
+    top: 35px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.category {
+    position: absolute;
+    width: 1500px;
+    height: 1290px;
+    left: 0px;
+    top: 2560px;
+    background: #fafdfd;
+}
+
+.category p {
+    position: absolute;
+    width: 239px;
+    height: 60px;
+    left: 210px;
+    top: -25px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1B1B1B;
+}
+
+.category .ill4 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 460px;
+    top: 25px;
+}
+
+.category .pizza {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    position: relative;
+    border: hidden;
+    top: 100px;
+    left: 400px;
+}
+
+.pizza img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.pizza p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .sushi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;;
+    border-radius: 12px;
+    border: hidden;
+    position: absolute;
+    left: 570px;
+    top: 100px;
+}
+
+.sushi img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.sushi p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .roll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    border: hidden;
+    position: absolute;
+    left: 740px;
+    top: 100px;
+}
+
+.roll img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.roll p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .sets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    border: hidden;
+    position: absolute;
+    left: 910px;
+    top: 100px;
+}
+
+.sets img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.sets p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .desserts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 176px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    border: hidden;
+    position: absolute;
+    left: 1080px;
+    top: 100px;
+}
+
+.desserts img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.desserts p {
+    position: relative;
+    left: -2px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .list1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1224px;
+    height: 479px;
+    left: 50px;
+    top: 430px;
+}
+
+.list1 .cate1 {
+    position: relative;
+    width: 392px;
+    height: 479px;
+    left: 125px;
+    top: -240px;
+    background: #fafdfd;
+}
+
+.cate1 img {
+    position: absolute;
+    width: 392px;
+    height: 270px;
+    left: 0px;
+    top: -7px;
+}
+
+.cate1 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.cate1 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.cate1 .cateval1 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.cate1 .cateprice1 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.cate1 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.list1 .cate2 {
+    position: relative;
+    width: 392px;
+    height: 479px;
+    left: 135px;
+    top: -240px;
+    background: #fafdfd;
+}
+
+.cate2 img {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.cate2 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.cate2 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.cate2 .cateval2 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.cate2 .cateprice2 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.cate2 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.list1 .cate3 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    left: 980px;
+    top: -230px;
+    background: #fafdfd;
+}
+
+.cate3 img {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.cate3 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.cate3 p {
+    position: absolute;
+    width: 360px;
+    height: 51px;
+    left: 24px;
+    top: 305px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1B1B1B;
+}
+
+.cate3 .cateval3 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 360px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.cate3 .cateprice3 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.cate3 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.list1 .cate4 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    left: 135px;
+    top: 280px;
+    background: #fafdfd;
+}
+
+.cate4 img {
+    position: absolute;
+    width: 392px;
+    height: 270px;
+    left: 0px;
+    top: -7px;
+}
+
+.cate4 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.cate4 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.cate4 .cateval4 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.cate4 .cateprice4 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.cate4 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.list1 .cate5 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    left: 561px;
+    top: 280px;
+    background: #fafdfd;
+}
+
+.cate5 img {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.cate5 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.cate5 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.cate5 .cateval5 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.cate5 .cateprice5 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.cate5 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.list1 .cate6 {
+    position: absolute;
+    width: 392px;
+    height: 479px;
+    left: 980px;
+    top: 280px;
+    background: #fafdfd;
+}
+
+.cate6 img {
+    position: absolute;
+    width: 392px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+.cate6 h1 {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    left: 24px;
+    top: 280px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.cate6 p {
+    position: absolute;
+    width: 344px;
+    height: 51px;
+    left: 24px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.cate6 .cateval6 {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #B7B7B7;
+}
+
+.cate6 .cateprice6 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 24px;
+    top: 350px;
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.cate6 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 188px;
+    top: 400px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+
+
+
+/* ABOUT HTML */
+.info2 {
+    position: absolute;
+    width: 663px;
+    height: 580px;
+    left: 200px;
+    top: 1740px;
+}
+
+.info2 .inp {
+    position: relative;
+    width: 658px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: #1B1B1B;
+}
+
+.info2 p {
+    position: absolute;
+    width: 660px;
+    height: 530px;
+    left: 10px;
+    top: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+.info2 .imginf1 {
+    position: absolute;
+    width: 514px;
+    height: 640px;
+    left: 670px;
+    top: -45px;
+}
+
+.info2 .imginf2 {
+    position: absolute;
+    width: 336px;
+    height: 419px;
+    left: 1100px;
+    top: 100px;
+    z-index: -1;
+}
+
+.info {
+    position: absolute;
+    width: 1314px;
+    height: 628px;
+    left: 200px;
+    top: 200px;
+}
+
+.info p {
+    position: absolute;
+    width: 524px;
+    height: 370px;
+    left: 50px;
+    top: 125px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1B1B1B;
+}
+
+.info h1 {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+.info .img1 {
+    position: absolute;
+    width: 514px;
+    height: 640px;
+    left: 600px;
+    top: 0px;
+}
+
+.info .img2 {
+    position: absolute;
+    width: 336px;
+    height: 419px;
+    left: 1078px;
+    top: 153px;
+    z-index: -1;
+}
+
+.inst {
+    position: absolute;
+    width: 1225px;
+    height: 678px;
+    left: 200px;
+    top: 920px;
+}
+
+.btn {
+    position: absolute;
+    width: 260px;
+    height: 72px;
+    left: 937px;
+    top: 20px;
+}
+
+.inst .inst1 {
+    position: absolute;
+    width: 300px;
+    height: 254px;
+    left: 1px;
+    top: 158px;
+}
+
+.inst .inst2 {
+    position: absolute;
+    width: 300px;
+    height: 254px;
+    left: 313px;
+    top: 158px;
+}
+
+.inst .inst3 {
+    position: absolute;
+    width: 299px;
+    height: 254px;
+    left: 625px;
+    top: 158px;
+}
+
+.inst .inst4 {
+    position: absolute;
+    width: 612px;
+    height: 254px;
+    left: 1px;
+    top: 424px;
+}
+
+.inst .inst5 {
+    position: absolute;
+    width: 299px;
+    height: 254px;
+    left: 625px;
+    top: 424px;
+}
+
+.inst .inst6 {
+    position: absolute;
+    width: 288px;
+    height: 520px;
+    left: 937px;
+    top: 158px;
+}
+
+.form {
+    position: absolute;
+    width: 1224px;
+    height: 172px;
+    left: 230px;
+    top: 2530px;
+    background: #e8f6f9;
+}
+
+.form .form1 {
+    position: absolute;
+    width: 1224px;
+    height: 151px;
+    left: 0px;
+    top: 11px;
+    background: #fafdfd;
+}
+
+.form1 .question {
+    position: absolute;
+    width: 278px;
+    height: 30px;
+    left: 64px;
+    top: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1B1B1B;
+}
+
+.form1 .answer {
+    position: absolute;
+    width: 340px;
+    height: 20px;
+    left: 64px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1B1B;
+}
+
+.form1 .abt-ill {
+    position: absolute;
+    left: 420px;
+    top: 40px;
+}
+
+.form1 button {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 950px;
+    top: 50px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 1224px;
+    height: 212px;
+    left: 240px;
+    top: 2900px;
+}
+
+.review .review1 {
+    width: 1224px;
+    height: 130px;
+    background: #fafdfd;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 45px;
+}
+
+.review1 .ac1 {
+    background: rgb(171, 206, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    left: 8px;
+}
+
+.ac1 p {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    color: rgb(74, 141, 236);
+}
+
+.review1 .nameac1 {
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 90px;
+    top: -10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.review1 .data1 {
+    position: absolute;
+    width: 69px;
+    height: 17px;
+    left: 90px;
+    top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.review1 .star {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 300px;
+    top: 10px;
+}
+
+.review1 .revi1 {
+    position: absolute;
+    width: 703px;
+    height: 96px;
+    left: 300px;
+    top: 13px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1B1B1B;
+}
+
+.review .review2 {
+    width: 1224px;
+    height: 130px;
+    background: #fafdfd;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 270px;
+}
+
+.review2 .ac2 {
+    background: rgb(171, 206, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    left: 8px;
+}
+
+.ac2 p {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    color: rgb(74, 141, 236);
+}
+
+.review2 .nameac2 {
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 90px;
+    top: -10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.review2 .data2 {
+    position: absolute;
+    width: 69px;
+    height: 17px;
+    left: 90px;
+    top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.review2 .star2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 300px;
+    top: 10px;
+}
+
+.review2 .revi2 {
+    position: absolute;
+    width: 703px;
+    height: 96px;
+    left: 300px;
+    top: 13px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1B1B1B;
+}
+
+.review .review3 {
+    width: 1224px;
+    height: 130px;
+    background: #fafdfd;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 500px;
+}
+
+.review3 .ac3 {
+    background: rgb(171, 206, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    left: 8px;
+}
+
+.ac3 p {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    color: rgb(74, 141, 236);
+}
+
+.review3 .nameac3 {
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 90px;
+    top: -10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.review3 .data3 {
+    position: absolute;
+    width: 69px;
+    height: 17px;
+    left: 90px;
+    top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.review3 .star3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 300px;
+    top: 10px;
+}
+
+.review3 .revi3 {
+    position: absolute;
+    width: 703px;
+    height: 96px;
+    left: 300px;
+    top: 13px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1B1B1B;
+}
+
+.review .review4 {
+    width: 1224px;
+    height: 130px;
+    background: #fafdfd;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 740px;
+}
+
+.review4 .ac4 {
+    background: rgb(171, 206, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    left: 8px;
+}
+
+.ac4 p {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    color: rgb(74, 141, 236);
+}
+
+.review4 .nameac4 {
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 90px;
+    top: -10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.review4 .data4 {
+    position: absolute;
+    width: 69px;
+    height: 17px;
+    left: 90px;
+    top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.review4 .star4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 300px;
+    top: 10px;
+}
+
+.review4 .revi4 {
+    position: absolute;
+    width: 703px;
+    height: 96px;
+    left: 300px;
+    top: 13px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1B1B1B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    width: 2920px;
+    height: 182px;
+    left: 0px;
+    top: 3800px;
+}
+
+footer .foot {
+    position: relative;
+    width: 100%;
+    height: 144px;
+    top: 38px;
+    background: #1B1B1B;
+}
+
+footer .logo-foot {
+    position: absolute;
+    width: 112px;
+    height: 132px;
+    left: 348px;
+    top: 20px;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.foot .menu {
+    padding: 0px;
+    position: absolute;
+    width: 294px;
+    height: 17px;
+    left: 500px;
+    top: 35px;
+}
+
+.menu .about {
+    width: 50px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    top: -18px;
+}
+
+.menu .deliv {
+    width: 122px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 70px;
+    top: -18px;
+}
+
+.menu .contact {
+    width: 60px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 220px;
+    top: -18px;
+}
+
+.foot .social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 511px;
+    top: 64px;
+}
+
+.foot .phone {
+    position: relative;
+    width: 225px;
+    height: 30px;
+    left: 1250px;
+    top: 30px;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.foot .work {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: 1335px;
+    top: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.foot .def {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1295px;
+    top: 80px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}

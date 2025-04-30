@@ -1,0 +1,945 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafdfd;
+}
+
+.logo {
+    width: 100px;
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 150px;
+}
+
+nav ul li {
+    height: 50px;
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #211f1f;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #C95C3F
+}
+
+/* MENU */
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.list-sushi {
+    width: 392px;
+    height: 479px;
+    border-radius: 10px;
+    background: #fafdfd;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list-sushi .hot,
+.list-sushi .baked {
+    position: absolute;
+    width: 51px;
+    height: 49px;
+}
+
+.list-sushi .hot {
+    top: 20px;
+    left: 20px;
+}
+
+.list-sushi .baked {
+    top: 80px;
+    left: 20px;
+}
+
+.list-sushi img.sushi1 {
+    width: 100%;
+    height: auto;
+}
+
+.list-sushi2 img.sushi1 {
+    margin-top: -17px;
+    width: 380px;
+    height: auto;
+}
+
+.list-sushi h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.list-sushi p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.list-sushi .val {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+.list-sushi .price {
+    font-size: 30px;
+    color: #1B1B1B;
+}
+
+.list-sushi button {
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    background-image: url(img/btn.svg);
+    color: #fafdfd;
+    cursor: pointer;
+}
+
+.list-sushi2 {
+    width: 392px;
+    height: 479px;
+    border-radius: 10px;
+    background: #fafdfd;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list-sushi2 .baked {
+    position: absolute;
+    width: 51px;
+    height: 49px;
+}
+
+.list-sushi2 .baked {
+    top: 20px;
+    left: 20px;
+}
+
+.list-sushi2 h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.list-sushi2 p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.list-sushi2 .val {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+.list-sushi2 .price {
+    font-size: 30px;
+    color: #1B1B1B;
+}
+
+.list-sushi2 button {
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+    cursor: pointer;
+}
+
+.menu-list .category {
+    width: 1500px;
+}
+
+.category .pizza {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    position: relative;
+    border: hidden;
+    left: 330px;
+}
+
+.pizza img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.pizza p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .sushi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    background: #fafdfd;
+    border-radius: 12px;
+    margin-top: -70px;
+    position: relative;
+    border: hidden;
+    left: 500px;
+}
+
+.sushi img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.sushi p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .roll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    border: hidden;
+    margin-top: -70px;
+    position: relative;
+    left: 670px;
+}
+
+.roll img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.roll p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .sets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 150px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    border: hidden;
+    margin-top: -70px;
+    position: relative;
+    left: 840px;
+}
+
+.sets img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.sets p {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.category .desserts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 176px;
+    height: 70px;
+    background: #fafdfd;
+    border-radius: 12px;
+    border: hidden;
+    margin-top: -70px;
+    position: relative;
+    left: 1010px;
+}
+
+.desserts img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.desserts p {
+    position: relative;
+    left: -2px;
+    top: 2px;
+    width: 49px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #E07153;
+}
+
+.next {
+    width: 150px;
+    position: absolute;
+    top: 1880px;
+    border: hidden;
+    background: #fafdfd;
+    color: #C95C3F;
+}
+
+.next:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* CHECKOUT */
+
+.order {
+    position: relative;
+    top: 90px;
+    left: 80px;
+    width: 700px;
+    height: 600px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 60px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cart,
+.form {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 180px;
+    right: 80px;
+    min-width: 350px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 60px;
+    border-radius: 6px;
+}
+
+.cart-item div {
+    margin-left: 10px;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.counter button {
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.section {
+    margin-bottom: 20px;
+    background: #fafdfd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    position: relative;
+    left: 50px;
+    top: -30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    display: flex;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.map {
+    background: #eee;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin-top: 10px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn, .btn2{
+    background-image: url("img/btn (2).svg");
+    background-size: cover;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    width: 470px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    width: 2920px;
+    height: 182px;
+    left: 0px;
+    top: 2000px;
+}
+
+footer .foot {
+    position: relative;
+    width: 100%;
+    height: 144px;
+    top: 38px;
+    background: #1B1B1B;
+}
+
+footer .logo-foot {
+    position: absolute;
+    width: 112px;
+    height: 132px;
+    left: 348px;
+    top: 20px;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.foot .menu {
+    padding: 0px;
+    position: absolute;
+    width: 294px;
+    height: 17px;
+    left: 500px;
+    top: 35px;
+}
+
+.menu .about {
+    width: 50px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    top: -18px;
+}
+
+.menu .deliv {
+    width: 122px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 70px;
+    top: -18px;
+}
+
+.menu .contact {
+    width: 60px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 220px;
+    top: -18px;
+}
+
+.foot .social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 511px;
+    top: 64px;
+}
+
+.foot .phone {
+    position: relative;
+    width: 225px;
+    height: 30px;
+    left: 1250px;
+    top: 30px;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.foot .work {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: 1335px;
+    top: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.foot .def {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1295px;
+    top: 80px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px 40px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .modal-content .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .logo {
+        width: 80px;
+        height: 100px;
+    }
+
+    nav ul {
+        height: auto;
+        padding: 0;
+    }
+
+    nav ul li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .list-sushi, .list-sushi2 {
+        width: 340px;
+        height: auto;
+    }
+
+    .list-sushi img.sushi1, .list-sushi2 img.sushi1 {
+        width: 370px;
+    }
+
+    .list-sushi button, .list-sushi2 button {
+        margin-left: 100px;
+    }
+
+    .menu-list .category{
+        display: flex;
+        width: 700px;
+    }
+    .category .pizza,
+    .category .sushi,
+    .category .roll,
+    .category .sets,
+    .category .desserts {
+        flex-direction: row;
+        left: 0px;
+        margin-top: 20px;
+
+    }
+
+    .category p {
+        font-size: 18px;
+    }
+    
+    .menu-list .next{
+        width: 120px;
+        height: 50px;
+        position: relative;
+        right: 200px;
+        top: 500px;
+    }
+
+    .order {
+        position: relative;
+        left: 20px;
+        width: 730px;
+    }
+
+    .cart, .form {
+        position: static;
+        width: 730px;
+    }
+
+    .cart-item img {
+        width: 50px;
+    }
+
+    .section h2 {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    footer {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    footer .logo-foot{
+        position: relative;
+        left: 10px;
+        top: 130px;
+    }
+
+    footer .foot {
+        position: relative;
+        top: 10;
+    }
+    .foot .menu {
+        position: relative;
+        left: 140px;
+    }
+    .foot .social{
+        position: relative;
+        top: 10px;
+    }
+
+    .foot .phone{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+    .foot .work{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+    .foot .def {
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 60px;
+        height: 70px;
+    }
+
+    nav ul li {
+        padding: 8px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .list-sushi, .list-sushi2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .list-sushi h1, .list-sushi2 h1 {
+        font-size: 20px;
+    }
+
+    .menu-list .category{
+        width: 90px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .category p {
+        font-size: 16px;
+    }
+
+    .category .pizza,
+    .category .sushi,
+    .category .roll,
+    .category .sets,
+    .category .desserts {
+        margin-top: 15px;
+    }
+    .menu-list .next{
+        position: relative;
+        left: 0px;
+        top: 10px;
+    }
+
+    .order {
+        width: 440px;
+    }
+
+    .cart, .form {
+        width: 440px;
+        position: static;
+    }
+
+    .cart-item img {
+        width: 40px;
+    }
+
+    .total {
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    footer {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    footer .logo-foot{
+        position: relative;
+        left: 10px;
+        top: 130px;
+    }
+
+    footer .foot {
+        position: relative;
+        height: auto;
+    }
+    .foot .menu {
+        position: relative;
+        left: 140px;
+    }
+    .foot .social{
+        position: relative;
+        left: 150px;
+        top: 40px;
+    }
+
+    .foot .phone{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 30px;
+    }
+    .foot .work{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 10px;
+    }
+    .foot .def {
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+}
+
+
+

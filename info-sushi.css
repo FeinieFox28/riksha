@@ -1,0 +1,891 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafdfd;
+}
+
+.return {
+    position: absolute;
+    width: 258px;
+    height: 20px;
+    left: 62px;
+    top: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.image {
+    position: absolute;
+    width: 650px;
+    height: 372px;
+    left: 248px;
+    top: 130px;
+}
+
+.image img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 570px;
+    height: 372px;
+    left: 40px;
+    top: 0px;
+    border: 1px solid #E2E1E1;
+
+}
+
+.information {
+    position: absolute;
+    width: 531px;
+    height: 370px;
+    left: 1040px;
+    top: 100px;
+}
+
+.information h1 {
+    position: absolute;
+    width: 398px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.information .weight {
+    position: absolute;
+    width: 39px;
+    height: 26px;
+    left: 6px;
+    top: 59px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 16px;
+    color: #1B1B1B;
+}
+
+.information .weight2 {
+    position: absolute;
+    width: 81px;
+    height: 17px;
+    left: 49px;
+    top: 63px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.information table {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #3333331d;
+}
+
+thead {
+    color: #333;
+}
+
+thead th {
+    padding: 12px;
+}
+
+tbody td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+}
+
+.information img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 210px;
+}
+
+.information .delivery {
+    position: absolute;
+    width: 231px;
+    height: 17px;
+    left: 36px;
+    top: 195px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #1B1B1B;
+}
+
+.information .delivery2 {
+    position: absolute;
+    width: 231px;
+    height: 17px;
+    left: 266px;
+    top: 200px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: #C95C3F;
+}
+
+.information .compound {
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 0px;
+    top: 226px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1B1B1B;
+}
+
+.information .compound2 {
+    position: absolute;
+    width: 531px;
+    height: 34px;
+    left: 0px;
+    top: 246px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+}
+
+.information .info-val {
+    position: absolute;
+    width: 41px;
+    height: 20px;
+    left: 0px;
+    top: 310px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #B7B7B7;
+}
+
+.information .info-val2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    font-size: 40px;
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 0px;
+    top: 300px;
+}
+
+.information .order {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    right: 20px;
+    top: 340px;
+    border: hidden;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+}
+
+.information .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+    margin: 20px;
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    width: 160px;
+    height: 100px;
+}
+
+.counter #increase {
+    position: absolute;
+    top: 35px;
+    left: 130px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #E07153;
+    color: #ecf4f6;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.counter #decrease {
+    position: absolute;
+    top: 35px;
+    right: 130px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #E07153;
+    color: #ecf4f6;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.offered {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    border: 1px solid rgba(52, 52, 52, 0.103);
+    position: absolute;
+    width: 1224px;
+    height: 479px;
+    left: 250px;
+    top: 650px;
+}
+
+.offered .offered-text {
+    position: absolute;
+    top: -100px;
+    width: 491px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    color: #1B1B1B;
+}
+
+.offered .offer {
+    height: 479px;
+    border-radius: 10px;
+    background: #fefefe;
+}
+
+.offer .offer-img {
+    width: 100%;
+    height: auto;
+}
+
+.offer .offer-img {
+    position: relative;
+    left: -20px;
+    width: 380px;
+    height: auto;
+}
+
+.offer h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.offer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.offer .val-offer {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+.offer .price-offer {
+    font-size: 30px;
+    color: #1B1B1B;
+}
+
+.offer button {
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+    cursor: pointer;
+}
+
+.offer {
+    width: 392px;
+    height: 479px;
+    border-radius: 10px;
+    background: #ececec;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.offer h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.offer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.offer .val-offer {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+.offer .price-offer {
+    font-size: 30px;
+    color: #1B1B1B;
+}
+
+.offer button {
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+    cursor: pointer;
+}
+
+.recomented {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    border: 1px solid rgba(52, 52, 52, 0.103);
+    position: absolute;
+    width: 1224px;
+    height: 479px;
+    left: 248px;
+    top: 1271px;
+}
+
+.recomented .recom-text {
+    position: absolute;
+    width: 558px;
+    height: 50px;
+    left: 0px;
+    top: -100px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    color: #1B1B1B;
+}
+
+.list-recom {
+    width: 392px;
+    height: 479px;
+    border-radius: 10px;
+    background: #fafafa;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list-recom .hot,
+.list-recom .baked {
+    position: absolute;
+    width: 51px;
+    height: 49px;
+}
+
+.list-recom .hot {
+    top: 20px;
+    left: 20px;
+}
+
+.list-recom .baked {
+    top: 80px;
+    left: 20px;
+}
+
+.list-recom img.sushi1 {
+    width: 100%;
+    height: auto;
+}
+
+.list-recom2 img.sushi2 {
+    margin-top: -17px;
+    width: 380px;
+    height: auto;
+}
+
+.list-recom h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.list-recom p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.list-recom .val {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+.list-recom .price {
+    font-size: 30px;
+    color: #1B1B1B;
+}
+
+.list-recom button {
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+    cursor: pointer;
+}
+
+.list-recom2 {
+    width: 392px;
+    height: 479px;
+    border-radius: 10px;
+    background: #fafafa;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list-recom2 .baked2 {
+    position: absolute;
+    width: 51px;
+    height: 49px;
+}
+
+.list-recom2 .baked2 {
+    top: 20px;
+    left: 20px;
+}
+
+.list-recom2 h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.list-recom2 p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.list-recom2 .val2 {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+.list-recom2 .price2 {
+    font-size: 30px;
+    color: #1B1B1B;
+}
+
+.list-recom2 button {
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    background-image: url(img/btn.svg);
+    color: #ecf4f6;
+    cursor: pointer;
+}
+
+
+footer {
+    position: absolute;
+    width: 2920px;
+    height: 182px;
+    left: 0px;
+    top: 2000px;
+}
+
+footer .foot {
+    position: relative;
+    width: 100%;
+    height: 144px;
+    top: 38px;
+    background: #1B1B1B;
+}
+
+footer .logo-foot {
+    position: absolute;
+    width: 112px;
+    height: 132px;
+    left: 348px;
+    top: 20px;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.foot .menu {
+    padding: 0px;
+    position: absolute;
+    width: 294px;
+    height: 17px;
+    left: 500px;
+    top: 35px;
+}
+
+.menu .about {
+    width: 50px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    top: -18px;
+}
+
+.menu .deliv {
+    width: 122px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 70px;
+    top: -18px;
+}
+
+.menu .contact {
+    width: 60px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 220px;
+    top: -18px;
+}
+
+.foot .social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 511px;
+    top: 64px;
+}
+
+.foot .phone {
+    position: relative;
+    width: 225px;
+    height: 30px;
+    left: 1250px;
+    top: 30px;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.foot .work {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: 1335px;
+    top: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.foot .def {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1295px;
+    top: 80px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .image{
+        width: 630px;
+        height: 300px;
+        position: relative;
+        left: 70px;
+    }
+    .image img{
+        width: 530px;
+        height: 300px;
+    }
+    .information{
+        position: relative;
+        top: 160px;
+        left: 100px;
+    }
+    .offered {
+        width: 760px;
+        position: relative;
+        top: 300px;
+        left: 5px;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    .offered .offer{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+       .offer .offer-img{
+        width: 290px;
+    }
+    .recomented {
+        width: 760px;
+        position: relative;
+        top: 1300px;
+        left: 5px;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    .recomented .list-recom, .recomented .list-recom2{
+        width: 340px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .list-recom2 .sushi2, .list-recom .sushi1 {
+        width: 270px;
+    }
+    
+    .offered-text,
+    .recom-text {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .offer button,
+    .list-recom button,
+    .list-recom2 button {
+        display: block;
+        margin: 10px;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    footer .logo-foot{
+        position: relative;
+        left: 10px;
+        top: 130px;
+    }
+
+    footer .foot {
+        position: relative;
+        top: 10;
+    }
+    .foot .menu {
+        position: relative;
+        left: 140px;
+    }
+    .foot .social{
+        position: relative;
+        top: 10px;
+    }
+
+    .foot .phone{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+    .foot .work{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+    .foot .def {
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .image{
+        width: 430px;
+        height: 300px;
+        position: relative;
+        left: 0px;
+    }
+    .image img{
+        width: 430px;
+        height: 270px;
+    }
+    .information{
+        width: 475px;
+        position: relative;
+        top: 140px;
+        left: 2px;
+    }
+    .information .counter{
+        position: absolute;
+        left: 70px;
+        width: 200px;
+    }
+    .counter #increase{
+        position: absolute;
+        right: 100px;
+    }
+    .offered {
+        width: 470px;
+        position: relative;
+        top: 300px;
+        left: 5px;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .offered .offer{
+        width: 450px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    } 
+    .offer .offer-img{
+        width: 250px;
+    }
+    .recomented {
+        width: 470px;
+        position: relative;
+        top: 1400px;
+        left: 5px;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .recomented .recom-text{
+        position: relative;
+    }
+    .recomented .list-recom, .recomented .list-recom2{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .list-recom2 .sushi2, .list-recom .sushi1 {
+        width: 270px;
+    }
+
+    .offered-text,
+    .recom-text {
+        font-size: 22px;
+    }
+
+    .offer h1,
+    .list-recom h1,
+    .list-recom2 h1 {
+        font-size: 18px;
+    }
+
+    .offer .price-offer,
+    .list-recom .price,
+    .list-recom2 .price2 {
+        font-size: 22px;
+    }
+
+    .offer button,
+    .list-recom button,
+    .list-recom2 button {
+        font-size: 14px;
+    }
+    footer {
+        position: relative;
+        top: 2600px;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    footer .logo-foot{
+        position: relative;
+        left: 10px;
+        top: 130px;
+    }
+
+    footer .foot {
+        position: relative;
+        height: auto;
+    }
+    .foot .menu {
+        position: relative;
+        left: 140px;
+    }
+    .foot .social{
+        position: relative;
+        left: 150px;
+        top: 40px;
+    }
+
+    .foot .phone{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 30px;
+    }
+    .foot .work{
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 10px;
+    }
+    .foot .def {
+        position: relative;
+        left: 150px;
+        font-size: 12px;
+        top: 0px;
+    }
+}
