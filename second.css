@@ -5,9 +5,9 @@ body {
     background-color: #fafdfd;
 }
 
-.logo {
-    width: 100px;
-    height: 120px;
+nav .logo {
+    width: 70px;
+    height: 90px;
 }
 
 nav ul {
@@ -81,8 +81,15 @@ nav ul li a:hover {
 }
 
 .list-sushi h1 {
-    font-size: 24px;
-    margin: 10px 0 5px;
+    font-size: 22px;
+    margin-top: -25px;
+    margin-left: -35px;
+}
+
+.list-sushi2 h1 {
+    font-size: 22px;
+    margin-top: -25px;
+    margin-left: -35px;
 }
 
 .list-sushi p {
@@ -130,11 +137,6 @@ nav ul li a:hover {
 .list-sushi2 .baked {
     top: 20px;
     left: 20px;
-}
-
-.list-sushi2 h1 {
-    font-size: 24px;
-    margin: 10px 0 5px;
 }
 
 .list-sushi2 p {
@@ -484,7 +486,7 @@ textarea {
 }
 
 .btn, .btn2{
-    background-image: url("img/btn (2).svg");
+    background-image: url("img/btn(2).svg");
     background-size: cover;
     color: white;
     border: none;

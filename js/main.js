@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function () {
         <button class="increase">+</button>
       </div>
       <div>${item.price * item.qty} ₽</div>
-      <button class="remove">🗑</button>
     `;
     orderContainer.appendChild(div);
   });
