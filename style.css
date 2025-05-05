@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 
-nav .logo {
+nav li .logo {
     width: 70px;
     height: 90px;
 }
@@ -17,6 +17,7 @@ nav ul {
     justify-content: center;
     padding: 10px;
     height: 150px;
+    align-items: baseline;
 }
 
 nav ul li {

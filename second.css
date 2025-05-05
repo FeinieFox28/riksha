@@ -5,7 +5,7 @@ body {
     background-color: #fafdfd;
 }
 
-nav .logo {
+nav li .logo {
     width: 70px;
     height: 90px;
 }
@@ -16,6 +16,7 @@ nav ul {
     justify-content: center;
     padding: 10px;
     height: 150px;
+    align-items: baseline;
 }
 
 nav ul li {
@@ -216,9 +217,9 @@ nav ul li a:hover {
     background: #fafdfd;
     border-radius: 12px;
     margin-top: -70px;
-    position: relative;
+    position: absolute;
     border: hidden;
-    left: 500px;
+    left: 510px;
 }
 
 .sushi img {
